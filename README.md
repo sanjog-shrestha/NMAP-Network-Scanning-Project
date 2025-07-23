@@ -76,7 +76,7 @@ nmap --script vuln 192.168.233.137
 *Security Insight*: Detected vulnerabilities included possible CVEs related to outdated SSL versions.
 
 *Sample Output Screenshot:*
-[Vulnerability Scanning](screenshots/Vulnerability_Scanning.png)
+[Vulnerability Scanning](Screenshots/Vulnerability_Scanning.png)
 
 ---
 
