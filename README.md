@@ -97,7 +97,7 @@ nmap -A -T4 192.168.233.137
 *Security Insight*: This scan offers a full attacker-view of the system; very useful for red-teaming.
 
 *Sample Output Screenshot:*
-[Advanced Scanning Techniques](screenshots/Advanced_Scanning_Techniques.png)
+[Advanced Scanning Techniques](Screenshots/Advanced_Scanning_Techniques.png)
 
 ---
 
