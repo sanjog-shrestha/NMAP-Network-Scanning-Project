@@ -123,12 +123,9 @@ Then add:
 🔄 Runs every day at 2 AM
 
 Benefits:
-
-    Continuous visibility of the target system
-
-    Detects unexpected changes
-
-    Supports historical change tracking
+- Continuous visibility of the target system
+- Detects unexpected changes
+- Supports historical change tracking
 
 ---
 
