@@ -101,6 +101,37 @@ nmap -A -T4 192.168.233.137
 
 ---
 
+## 6. ⏰ Automated Scanning with Cron (New Feature)
+
+Automate daily scans for continuous monitoring of services and system drift.
+Script
+
+     #!/bin/bash
+     TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+     OUTPUT_DIR="/home/user/nmap-logs"
+     mkdir -p $OUTPUT_DIR
+     nmap -sV -O 192.168.233.137 -oN $OUTPUT_DIR/scan_$TIMESTAMP.txt
+
+Cron Job Setup
+
+    crontab -e
+
+Then add:
+
+    0 2 * * * /home/user/scripts/daily_nmap_scan.sh
+
+🔄 Runs every day at 2 AM
+
+Benefits:
+
+    Continuous visibility of the target system
+
+    Detects unexpected changes
+
+    Supports historical change tracking
+
+---
+
 ## 📊 Findings Summary
 
 | IP Address      | Service      | Detected Version | Vulnerability (CVE) | Description                              |
