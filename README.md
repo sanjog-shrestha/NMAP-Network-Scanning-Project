@@ -143,8 +143,8 @@ Automatically convert Nmap scan results into a professional HTML report using xs
 - Looks more professional for client delivery or team reviews
 
 *Sample Output Screenshot:*
-- [HTML Report Generation](screenshots/xml.png)
-- [HTML Report Result](screenshots/html.png>
+- [HTML Report Generation](Screenshots/xml.png)
+- [HTML Report Result](Screenshots/html.png)
 )
 
 ---
