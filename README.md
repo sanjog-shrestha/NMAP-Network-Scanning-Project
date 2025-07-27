@@ -129,6 +129,25 @@ Benefits:
 
 ---
 
+🛰️ Live HTML Report Generation (New Feature)
+
+Automatically convert Nmap scan results into a professional HTML report using xsltproc.
+
+    nmap -sV -O -oX scan.xml 192.168.233.137
+    xsltproc scan.xml -o scan_report.html
+
+🧩 Benefits:
+- Human-readable web format
+- Easier to present in reports or security documentation
+- Enables browser-based post-analysis
+- Looks more professional for client delivery or team reviews
+
+*Sample Output Screenshot:*
+[HTML Report Generation](Screenshots/XML.png)
+[HTML Report Result](Screenshots/HTML.png)
+
+---
+
 ## 📊 Findings Summary
 
 | IP Address      | Service      | Detected Version | Vulnerability (CVE) | Description                              |
